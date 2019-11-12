@@ -23,7 +23,9 @@ function quickModal(message, showX = true, animate=true) {
 	let modalContent = document.createElement("div");
 	modalContent.style.padding = "10px";
 	modalContent.style.background = "white";
-	modalContent.style.transition = "all 2s";  
+	modalContent.style.transition = "all 2s";
+	modalContent.style.maxWidth = "90%";
+	modalContent.style.maxHeight = "90vh";
 	modal.appendChild(modalContent); 
 	
 	//Create the X button
